@@ -154,7 +154,7 @@ table.rwd {
     overflow: hidden;
 
     // Gradients
-    &:before { @include table-gradient-left; left: 0; }
+    // &:before { @include table-gradient-left; left: 0; }
     &:after { @include table-gradient-right; right: 0; }
 
     thead, tbody, th, tr, td {
